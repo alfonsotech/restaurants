@@ -1,0 +1,71 @@
+[
+	{
+		"restaurantName": "Tami's Food Counter",
+		"address": "123 Fake St, Hamilton ON, L8L 3J4",
+		"cuisine": "Chinese",
+		"website": "<a href= 'http://www.website.com'>www.website.com</a>",
+		"lat": 43.250170,
+		"long": -79.816923,
+		"ratings": [
+			{
+				"stars": 4,
+				"comment": "It was nice but my grilled cheese had mice in it!"
+			},
+			{
+				"stars": 3,
+				"comment": "Gross apples!"
+			},
+			{
+				"stars": 1,
+				"comment": "Never got my food"
+			}
+		],
+		"ratingsAvg": 0
+	},
+	{
+		"restaurantName": "Joe's Diner",
+		"address": "123 Fake St, Hamilton ON, L8L 3J4",
+		"cuisine": "Jamaican",	
+		"website": "<a href= 'http://www.website.com'>www.website.com</a>",
+		"lat": 43.246770,
+		"long": -79.817834,
+		"ratings": [
+			{
+				"stars": 6,
+				"comment": "So much jerk sauce!!!"
+			},
+			{
+				"stars": 3,
+				"comment": "Ya man."
+			},
+			{
+				"stars": 1,
+				"comment": "Delicious."
+			}
+		],
+		"ratingsAvg": 0	},
+	{
+		"restaurantName": "Syrups are us",
+		"address": "123 Fake St, Hamilton ON, L8L 3J4",
+		"cuisine": "Canadian",
+		"website": "<a href= 'http://www.website.com'>www.website.com</a>",
+		"lat": 43.250810,
+		"long": -79.813822,
+		"ratings": [
+			{
+				"stars": 4,
+				"comment": "Too sweet."
+			},
+			{
+				"stars": 5,
+				"comment": "I did shots!"
+			},
+			{
+				"stars": 2,
+				"comment": "Needs more cowbell."
+			}
+		],
+		"ratingsAvg": 0
+	}
+]
+

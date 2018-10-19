@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Restaurant Reviews Are Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A restaurant review site.">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<header>
+		<h1>This is the header area</h1>
+		<div>
+			<p>This is where a short description of the site will go, with a welcome message!
+			</p>
+		</div>
+	</header>
+
+	<main>
+		<section id="mapContainer">
+			<!-- Map loads into this -->
+			<div id="map">
+			</div>
+		</section>
+
+		<aside id="restaurantContainer">
+
+			<div id="listModal">
+				<div>LIST TITLE
+				</div>
+				<div>FILTER RESULTS<br>
+					Click on a rating to filter the results to a minimum rating.
+				</div>
+				<div>
+					<span>
+						<img src="images/emptyStar.png" class="filterStar" id="star1" data-rating="1">
+						<img src="images/emptyStar.png" class="filterStar" id="star2" data-rating="2">
+						<img src="images/emptyStar.png" class="filterStar" id="star3" data-rating="3">
+						<img src="images/emptyStar.png" class="filterStar" id="star4" data-rating="4">
+						<img src="images/emptyStar.png" class="filterStar" id="star5" data-rating="5">
+					</span>
+					<span>
+						<button id="filterResults">FILTER</button>
+					</span>
+				</div>
+
+				<div id="listResults">
+				</div>
+			</div>
+			<!-- hidden modal for RESTAURANT DETAILS -->
+			<div id="restaurantModal">
+				<span id="restaurantModalContent">
+				</span>
+				<button id="restaurantModalClose">Close</button>
+
+			</div>
+		</aside>
+		<!-- hidden modal for ADD RESTAURANT input -->
+		<div id="newRestaurantModal">
+			<div id="newRestaurantForm">
+				<input id="newName" type="text" name="newName" placeholder="ex: McDonald's">
+				<input id="cuisineType" type="text" name="cuisineType" placeholder="ex: Fast Food">
+				<input id="newAddress" type="text" name="newAddress" placeholder="ex: 123 Fake St">
+				<button id="newRestaurantModalSubmit">SUBMIT</button>
+				<button id="newRestaurantModalCancel">Cancel</button>
+
+			</div>
+		</div>
+	</main>
+
+	<footer>
+	</footer>
+
+
+
+
+	<!-- JQUERY script -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Link to my app.js script -->
+	<script type="text/javascript" src="app.js"></script>
+	<!-- Link to Google Maps API script via key, and when connected callback to initMap function -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbulWAsl7TTbNtnz891RutUSCA89IHKQA&callback=initMap&libraries=places"
+    async defer></script>
+
+
+</body>
+</html>
+
